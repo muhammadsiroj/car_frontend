@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+
+}
+.global{
+    display: flex;
+    justify-content: center;
+
+}
+.navbar{
+    padding: 30px 0;
+    display: flex;
+    justify-content: end;
+}
+.navbar_btn{
+    display: flex;align-items: center;
+    gap: 10px;
+    width: 180px;
+    height: 50px;
+    background: #2A85FF;
+    color: #fff;
+    font-size: 16px;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+}
+.home_h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.box_span_img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+.box_span_h1{
+    color: #000;
+    font-size: 28px;
+    text-decoration: none;
+}
+.box_span{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 0 5px 0 rgb(0,0,0,0.5);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.box{
+    padding: 70px 0 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 34px;
+}
+.car_h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.car_box{
+    display: flex;
+    justify-content: space-between;
+}
+.span_box{
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 5px 0 rgb(0,0,0,0.5);
+}
+.span_box_img{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.span_box_h1{
+    font-size: 24px;
+    color: #000;
+    font-weight: 100;
+}
+.span_box_h2{
+    font-size: 26px;
+    color: #000;
+    font-weight: 100;
+}
+.notFound{
+    text-align: center;
+    font-size: 200px;
+    padding: 140px 0;
+    color: #2A85FF;
+}
+.global_box_left{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 350px;
+    margin: 10px 0;
+    padding: 20px;
+    background-color:#F6F6F6;
+    gap: 5px;
+}
+
+.box_left_img{
+    width: 270px;
+    height: 200px;
+}
+.box_span_h1{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.global_box{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.img_carusel{
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+}
+.box_left_name,
+.box_span_h1{
+    font-size: 26px;
+}
+.slider{
+    position: relative;
+    width:600px;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    width:600px;
+}
+.images img{
+    height: 450px;
+    width:600px;
+}
+.images input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid#000;
+    margin: 5px;
+    cursor: pointer;
+}
+.dots label:hover{
+    background: #000;
+}
+#img1:checked ~ .images_img1{
+    margin-left: 0;
+}
+#img2:checked ~ .images_img2{
+    margin-left: -100%;
+}
+.global_box_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.admin_box_btn1{
+    width: 300px;
+    height: 60px;
+    font-size: 26px;
+    background: #2A85FF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.admin_box_btn2{
+    width: 300px;
+    height: 60px;
+    font-size: 26px;
+    background: #2A85FF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.admin_box{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+input::file-selector-button {
+    visibility: hidden;
+  }
+  
+.input-upload {
+    color: transparent;
+  }
+.input-upload::before {
+  content: "upload image";
+  display: inline-block;
+  background: #2A85FF;
+  border: 1px solid #999;
+  width: 120px;
+  justify-content: center;
+  text-align: center;
+  padding: 12px 12px 12px 12px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid #2A85FF;
+}
+.input-text{
+    padding:0 0 0 20px;
+    font-size: 18px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #2A85FF;
+}
+.btn{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #2A85FF;
+    border: 2px solid #2A85FF;
+}
+.admin_add_car{
+    display: flex;
+    gap: 30px;
+    border: 2px solid #000;
+    width: 400px;
+    padding:0 0 0 70px ;
+    border-radius: 10px ;
+}
+.admin_add_car_img{
+    width: 50px;
+    height: 50px;
+}
+.admin_add_car_h1{
+    font-size: 36px;
+    color: #2A85FF;
+}
+.add_car_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.auth_navbar_btn{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #2A85FF;
+    color: #fff;
+    font-size: 18px;
+    background: #2A85FF;
+}
+.auth_navbar{
+    padding: 30px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
+.register_box{
+    padding: 40px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.register{
+    margin: 70px auto;
+    width: 500px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.register_h1{
+    color: #2A85FF;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.register_inp{
+    padding: 0 0 0 20px;
+    border-radius: 10px;
+    border: 2px solid #2A85FF;
+    width: 240px;
+    height: 30px;
+}
+.register_btn{
+    background: #2A85FF;
+    color: #fff;
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #2A85FF;
+}
+.register_login{
+    color: #2A85FF;
+    font-size: 20px;
+}
+.addcar_inp_rasm::before {
+    content: "upload image";
+    display: inline-block;
+    background: #2A85FF;
+    border: 1px solid #999;
+    width: 120px;
+    justify-content: center;
+    text-align: center;
+    padding: 7px 60px 7px 60px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #2A85FF;
+}
+.addcar{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 900px;
+    gap: 100px;
+    margin: 0 auto;
+}
+.addcar_box{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.addcar_inp_rasm,
+.register_inp,
+.register_inp,
+.register_inp,
+.register_inp,
+.register_inp,
+.register_inp,
+.register_inp,
+.register_inp,
+.register_inp,
+.register_btn{
+    margin: 10px;
+}
